@@ -19,7 +19,6 @@ const item6 = new OrderItem("It6","Item 06",6.06,"Prod6",6);
 const items = [item1,item2,item3,item4,item5,item6];
 */
 
-
 const items = [new OrderItem("It1","Item 01","Prod1",1.01,1),
                new OrderItem("It2","Item 02","Prod2",2.02,2),
                new OrderItem("It3","Item 03","Prod2",3.03,3),
@@ -28,4 +27,3 @@ const items = [new OrderItem("It1","Item 01","Prod1",1.01,1),
                new OrderItem("It6","Item 06","Prod6",6.06,6)];
 
 let order = new Order("it1","cust1",items);
-
