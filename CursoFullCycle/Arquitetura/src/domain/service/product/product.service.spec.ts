@@ -1,7 +1,6 @@
 import Product from "../../entity/product/product";
 import ProductService from "../../service/product/product.service"
 
-
 describe("Testes Productd.Service",() => {
     it ("Ajuste dos preços de todos os produtos",()=>{
         let prod1 = new Product("id1","prod1",100);
