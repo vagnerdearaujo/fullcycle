@@ -5,7 +5,5 @@ export default class OrderService {
         allproducts.forEach(produto => {
             produto.changePrice((produto.price*percentage)/100+produto.price);
         });
-
     }
-
 }
